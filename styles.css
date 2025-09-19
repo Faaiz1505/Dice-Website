@@ -44,5 +44,7 @@ footer {
   margin-top: 5%;
   color: #eeeeee;
   text-align: center;
-  font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
+  font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+    cursive;
 }

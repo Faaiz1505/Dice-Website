@@ -26,7 +26,7 @@ h1 {
   margin-bottom: 20px;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #ffffff;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #6e74c8;
 }
 
@@ -60,92 +60,4 @@ span {
   font-size: 1rem;
   font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
     cursive;
-}
-
-/* Small screens (phones) */
-@media (max-width: 600px) {
-  .container {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-  }
-
-  .dice-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 10rem;
-  }
-
-  .dice {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 3rem;
-    text-shadow: 2px 0 #ffffff;
-    margin-bottom: 4rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    text-shadow: 1px 0 #2f51a1;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  img {
-    width: 75%;
-  }
-
-  span {
-    font-size: 1rem;
-  }
-}
-
-/* Tablets */
-@media (min-width: 601px) and (max-width: 1024px) {
-  .container {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-  }
-
-  .dice-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 8rem;
-  }
-
-  .dice {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 4.5rem;
-    text-shadow: 2.5px 0 #ffffff;
-    margin-bottom: 3.5rem;
-  }
-
-  h2 {
-    font-size: 2.8rem;
-    margin-top: 3rem;
-    margin-bottom: 2.5rem;
-    text-shadow: 1.5px 0 #2f51a1;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  img {
-    width: 80%;
-  }
 }
